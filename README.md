@@ -31,7 +31,7 @@ All Code Is Available In The Main Branch.
 - php artisan migrate
 
 **7. Install frontend dependencies**
-- npm install && npm run dev
+- npm install
 
 **8. Start the local server**
 - php artisan serve
