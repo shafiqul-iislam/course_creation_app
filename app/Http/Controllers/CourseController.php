@@ -15,17 +15,21 @@ class CourseController extends Controller
     public function __construct(
         private CourseService $courseService
     ) {}
+
+    // course list page
     public function index()
     {
         $courses = Course::with('modules')->latest()->get();
         return view('courses.list', compact('courses'));
     }
 
+    // create course page
     public function create()
     {
         return view('courses.create');
     }
 
+    // store courses
     public function store(StoreCourseRequest $request)
     {
         $validated = $request->validated(); // validated the request
@@ -76,7 +80,5 @@ class CourseController extends Controller
         //         }
         //     }
         // }
-
-        return redirect('/courses')->with('success', 'Course created!');
     }
 }
