@@ -11,7 +11,8 @@ class Content extends Model
         'title',
         'module_id',
         'type',
-        
+        'video_url',
+        'video_length',
     ];
 
     public function module()

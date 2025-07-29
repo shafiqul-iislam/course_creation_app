@@ -31,7 +31,7 @@ class StoreCourseRequest extends FormRequest
             'modules.*.contents' => 'nullable|array',
             'modules.*.contents.*.title' => 'required|string',
             'modules.*.contents.*.type' => 'required|string|in:video,text,quiz',
-            'modules.*.contents.*.video_url' => 'nullable|url',
+            'modules.*.contents.*.video_url' => 'nullable|string',
             'modules.*.contents.*.video_length' => 'nullable|string',
         ];
     }

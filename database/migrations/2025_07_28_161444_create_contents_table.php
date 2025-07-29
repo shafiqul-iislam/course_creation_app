@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->foreignId('module_id');
             $table->string('type'); // video/text/quiz
-            $table->string('video_url')->nullable();
+            $table->text('video_url')->nullable();
             $table->string('video_length')->nullable();
             $table->timestamps();
         });
