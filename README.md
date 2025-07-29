@@ -5,7 +5,7 @@ All Code Is Available In The Main Branch.
 - PHP ≥ 8.2  
 - Composer ≥ 2.x  
 - Node.js & npm  
-- MySQL or other supported DB
+- MySQL
 
 ---
 
@@ -37,16 +37,16 @@ All Code Is Available In The Main Branch.
 - php artisan serve
 
 
-## 📸 Screenshots
+## Screenshots
 
-### 🖥️ courses list
+### courses list
 ![Courses](public/screenshots/courses.png)
 
-### 📘 Course Creation - 1
+### Course Creation - 1
 ![Course Creation](public/screenshots/create-1.png)
 
-### 📘 Course Creation - 2
+### Course Creation - 2
 ![Course Creation](public/screenshots/create-2.png)
 
-### 📘 Course Creation - 3
+### Course Creation - 3
 ![Course Creation](public/screenshots/create-3.png)
